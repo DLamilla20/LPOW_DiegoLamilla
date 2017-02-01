@@ -1,0 +1,40 @@
+header{
+  background: #344B54;
+  color: white;
+  overflow: hidden;
+  padding: 0.5em;
+  position: relative;/
+}
+
+header figure{
+  float: left;
+}
+
+header h1{
+  font-size: 5em;
+  font-weight: normal;
+  margin: 0 70px 0 0;
+}
+
+nav{
+  background: #80BCA3;
+  position: relative;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+}
+
+nav ul li a{
+  color: white;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+}
