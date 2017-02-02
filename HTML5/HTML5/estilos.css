@@ -2,9 +2,22 @@ a{
   color: #22BCE0;
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fuentes/letra/OpenSans-Regular-webfont.eot');
+    src: url('fuentes/letra/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/letra/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fuentes/letra/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fuentes/letra/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
   background: #EEEEEE;
-  font-family: "Open Sans";
+  font-family: "open_sansregular";
+  font-size: 16px;
 }
 
 footer{
@@ -183,10 +196,10 @@ nav ul #publicar_nav a{
 @font-face {
   font-family: 'icomoon';
   src:  url('C:/Users/Diego/Documents/GitHub/HTML5/HTML5/fuentes/fonts/icomoon.eot?y4ikev');
-  src:  url('fonts/icomoon.eot?y4ikev#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?y4ikev') format('truetype'),
-    url('fonts/icomoon.woff?y4ikev') format('woff'),
-    url('fonts/icomoon.svg?y4ikev#icomoon') format('svg');
+  src:  url('fuentes/fonts/icomoon.eot?y4ikev#iefix') format('embedded-opentype'),
+    url('fuentes/fonts/icomoon.ttf?y4ikev') format('truetype'),
+    url('fuentes/fonts/icomoon.woff?y4ikev') format('woff'),
+    url('fuentes/fonts/icomoon.svg?y4ikev#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -208,16 +221,22 @@ nav ul #publicar_nav a{
 
 .icon-mensaje:before {
   content: "\e902";
+  color: #0404B4;
 }
 .icon-f-arriba:before {
   content: "\e900";
+  color: #870d2f;
 }
 .icon-f-abajo:before {
   content: "\e901";
+  color: #008000;
+
 }
 .icon-lapiz:before {
   content: "\e908";
+  margin-right: 0.8em;
 }
 .icon-estrella:before {
   content: "\e9d9";
+  color: #F4FA58;
 }
